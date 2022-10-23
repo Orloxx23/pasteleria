@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/admin.css" />
+    <link rel="stylesheet" href="../css/animation.css" />
+
+    <!-- FONT AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/00a734f883.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>La de Maria | Administración</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="nav-logo">
+          <img src="../img/logo.png" alt="logo" />
+          <div class="nav-logo-items">
+            <h2>La de Maria</h2>
+            <hr />
+            <p>Administración</p>
+          </div>
+        </div>
+        <div class="nav-items">
+          <div class="nav-item">
+            <a href="admin.html">
+              <i class="fas fa-home"></i>
+              <p>Tablero</p>
+            </a>
+          </div>
+          <div class="nav-item">
+            <a href="admin.html">
+              <i class="fa-solid fa-poop"></i>
+              <p>Sabores</p>
+            </a>
+          </div>
+          <div class="nav-item">
+            <a href="admin.html">
+                <i class="fa-solid fa-star-of-life"></i>
+              <p>Adornos</p>
+            </a>
+          </div>
+          <div class="nav-item">
+            <a href="admin.html">
+                <i class="fa-solid fa-box"></i>
+              <p>Pedidos</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="content">
+      <header>
+        <div class="header-container">
+          <div class="header-left"></div>
+          <div class="header-right">
+            <i class="fa-solid fa-bell"></i>
+            <a href="./login.html">
+              <i class="fa-solid fa-right-from-bracket"></i>
+            </a>
+          </div>
+        </div>
+      </header>
+      <section>
+        <div class="sabores">
+          <div class="sabores-header">
+            <h1>Sabores</h1>
+            <p>Ver mas</p>
+          </div>
+          <div class="sabores-container">
+            <div class="card">
+              <div class="card-icon chocolate">
+                <i class="fa-solid fa-poop"></i>
+              </div>
+              <div class="card-body">
+                <p>0</p>
+                <h2>Chocolate</h2>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-icon vainilla">
+                <i class="fa-solid fa-poop"></i>
+              </div>
+              <div class="card-body">
+                <p>0</p>
+                <h2>Vainilla</h2>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-icon oreo">
+                <i class="fa-solid fa-poop"></i>
+              </div>
+              <div class="card-body">
+                <p>0</p>
+                <h2>Oreo</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sabores">
+          <div class="sabores-header">
+            <h1>Adornos</h1>
+            <p>Ver mas</p>
+          </div>
+          <div class="sabores-container">
+            <div class="card">
+              <div class="card-icon chocolate">
+                <i class="fa-solid fa-star-of-life"></i>
+              </div>
+              <div class="card-body">
+                <p>0</p>
+                <h2>Chispas de chocolate</h2>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-icon mym">
+                <i class="fa-solid fa-star-of-life"></i>
+              </div>
+              <div class="card-body">
+                <p>0</p>
+                <h2>m&m's</h2>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-icon colors">
+                <i class="fa-solid fa-star-of-life"></i>
+              </div>
+              <div class="card-body">
+                <p>0</p>
+                <h2>Chispas de colores</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pedidos">
+          <div class="pedidos-header">
+            <h1>Pedidos</h1>
+            <hr />
+            <p>Ver mas</p>
+          </div>
+          <div>
+            <table class="rwd-table">
+              <tr>
+                <th>Nombre</th>
+                <th>Sabores</th>
+                <th>Adornos</th>
+                <th>Estado</th>
+              </tr>
+              <tr>
+                <td data-th="Nombre">Orlando Mina</td>
+                <td data-th="Sabores">Vainilla, Oreo</td>
+                <td data-th="Adornos">m&m's</td>
+                <td data-th="Estado">
+                  <span class="pendiente">Pendiente</span>
+                </td>
+                <td>
+                  <div class="actions">
+                    <i class="fa-solid fa-pen"></i>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td data-th="Nombre">Martha Madroñero</td>
+                <td data-th="Sabores">Chocolate</td>
+                <td data-th="Adornos">Chispas de colores</td>
+                <td data-th="Estado">
+                  <span class="pendiente">Pendiente</span>
+                </td>
+                <td>
+                  <div class="actions">
+                    <i class="fa-solid fa-pen"></i>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
