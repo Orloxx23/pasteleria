@@ -373,6 +373,58 @@ button:active {
   transform: scale(0.95);
 }
 
+.horario{
+  position: fixed;
+  bottom: 10px;
+  right: -25rem;
+  display: flex;
+  transition: .5s ease-out;
+  z-index: 1;
+}
+
+.horario-expand{
+  background: white;
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 20px 0 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.horario-content{
+  width: 25rem;
+  background: white;
+  border-radius: 0 0 0 20px;
+  padding: 20px;
+}
+
+.horario-content span{
+  font-weight: 600;
+  color: #6e4750;
+}
+
+.horario-content p{
+  font-weight: 400;
+  color: #6e4750;
+}
+
+.horario-content h3{
+  font-size: 1.2rem;
+  color: #6e4750;
+}
+
+.horario-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.horario:hover{
+  right: 0;
+}
+
 @media (max-height: 800px) {
   .header-waves {
     transform: translateY(-12rem);
