@@ -16,7 +16,7 @@
     <title>La de Maria | Administración</title>
   </head>
   <body>
-    <nav>
+    <nav class="nav-desktop desktop">
       <div class="nav-container">
         <div class="nav-logo">
           <img src="../img/logo.png" alt="logo" />
@@ -41,20 +41,20 @@
           </div>
           <div class="nav-item">
             <a href="admin.html">
-                <i class="fa-solid fa-star-of-life"></i>
+              <i class="fa-solid fa-star-of-life"></i>
               <p>Adornos</p>
             </a>
           </div>
           <div class="nav-item">
             <a href="admin.html">
-                <i class="fa-solid fa-box"></i>
+              <i class="fa-solid fa-box"></i>
               <p>Pedidos</p>
             </a>
           </div>
         </div>
       </div>
     </nav>
-    <div class="content">
+    <div class="content desktop">
       <header>
         <div class="header-container">
           <div class="header-left"></div>
@@ -181,6 +181,127 @@
           </div>
         </div>
       </section>
+    </div>
+
+    <div class="mobile-container">
+      <nav class="nav-mobile mobile">
+        <div class="nav-mobile-items">
+          <i class="fa-solid fa-bars"></i>
+          <div class="nav-mobile-item">
+            <i class="fa-solid fa-bell"></i>
+            <i class="fa-solid fa-right-from-bracket"></i>
+          </div>
+        </div>
+      </nav>
+      <div class="mobile-content mobile">
+        <div class="mobile-cards-container">
+          <h1>Sabores</h1>
+          <div class="mobile-cards">
+            <div class="mobile-card">
+              <div class="mobile-card-icon chocolate">
+                <i class="fa-solid fa-poop"></i>
+              </div>
+              <div class="mobile-card-body">
+                <p>0</p>
+                <h2>Chocolate</h2>
+              </div>
+            </div>
+            <div class="mobile-card">
+              <div class="mobile-card-icon vainilla">
+                <i class="fa-solid fa-poop"></i>
+              </div>
+              <div class="mobile-card-body">
+                <p>0</p>
+                <h2>Vainilla</h2>
+              </div>
+            </div>
+            <div class="mobile-card">
+              <div class="mobile-card-icon oreo">
+                <i class="fa-solid fa-poop"></i>
+              </div>
+              <div class="mobile-card-body">
+                <p>0</p>
+                <h2>Oreo</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mobile-cards-container">
+          <h1>Adornos</h1>
+          <div class="mobile-cards">
+            <div class="mobile-card">
+              <div class="mobile-card-icon chocolate">
+                <i class="fa-solid fa-star-of-life"></i>
+              </div>
+              <div class="mobile-card-body">
+                <p>0</p>
+                <h2>Chispas de chocolate</h2>
+              </div>
+            </div>
+            <div class="mobile-card">
+              <div class="mobile-card-icon vainilla">
+                <i class="fa-solid fa-star-of-life"></i>
+              </div>
+              <div class="mobile-card-body">
+                <p>0</p>
+                <h2>m&m's</h2>
+              </div>
+            </div>
+            <div class="mobile-card">
+              <div class="mobile-card-icon oreo">
+                <i class="fa-solid fa-star-of-life"></i>
+              </div>
+              <div class="mobile-card-body">
+                <p>0</p>
+                <h2>Chispas de colores</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pedidos">
+          <div class="pedidos-header">
+            <h1>Pedidos</h1>
+            <hr />
+            <p>Ver mas</p>
+          </div>
+          <div>
+            <table class="rwd-table">
+              <tr>
+                <th>Nombre</th>
+                <th>Sabores</th>
+                <th>Adornos</th>
+                <th>Estado</th>
+              </tr>
+              <tr>
+                <td data-th="Nombre">Orlando Mina</td>
+                <td data-th="Sabores">Vainilla, Oreo</td>
+                <td data-th="Adornos">m&m's</td>
+                <td data-th="Estado">
+                  <span class="pendiente">Pendiente</span>
+                </td>
+                <td>
+                  <div class="actions">
+                    <i class="fa-solid fa-pen"></i>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td data-th="Nombre">Martha Madroñero</td>
+                <td data-th="Sabores">Chocolate</td>
+                <td data-th="Adornos">Chispas de colores</td>
+                <td data-th="Estado">
+                  <span class="pendiente">Pendiente</span>
+                </td>
+                <td>
+                  <div class="actions">
+                    <i class="fa-solid fa-pen"></i>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

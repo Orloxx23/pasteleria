@@ -8,7 +8,7 @@ body {
   display: flex;
 }
 
-nav {
+.nav-desktop {
   position: fixed;
   z-index: 1;
   height: 100vh;
@@ -105,7 +105,8 @@ section {
 
 .sabores .card {
   background: white;
-  min-width: 29%;
+  min-width: 28%;
+  max-width: 28%;
   min-height: 8rem;
   padding: 1.25rem;
   border-radius: 1.25rem;
@@ -348,4 +349,102 @@ section {
 
 .nav-item i {
   margin-right: 0.5rem;
+}
+
+.mobile{
+  display: none;
+}
+
+.mobile-container{
+  width: 100%;
+  display: none;
+  flex-direction: column;
+}
+
+.nav-mobile{
+  width: 100%;
+  height: 8vh;
+  background: white;
+}
+
+.nav-mobile-items{
+  padding: 0 1.25rem;
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobile-content{
+  background: #d69c8b;
+  max-width: 100%;
+  padding: 1.25rem;
+  min-height: 90vh;
+}
+
+.nav-mobile-items{
+  color: #d69c8b;
+}
+
+.mobile-cards-container h1{
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.mobile-cards{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: scroll;
+}
+
+.mobile-card{
+  min-width:  50%;
+  background: white;
+  border-radius: 1.25rem;
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+  margin-right: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 4rem;
+}
+
+.mobile-card i{
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.mobile-card h2{
+  font-size: 1rem;
+  
+}
+
+.mobile-card h2, p{
+  color: #d69c8b;
+}
+
+
+.mobile-card-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .mobile-container{
+    display: flex;
+  }
 }
