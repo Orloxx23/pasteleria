@@ -427,6 +427,10 @@ section {
   color: #EDACA6;
 }
 
+.nav-mobile-item a{
+  color: #EDACA6;
+}
+
 
 .mobile-card-body{
   display: flex;
