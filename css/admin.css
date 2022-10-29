@@ -377,14 +377,14 @@ section {
 }
 
 .mobile-content{
-  background: #d69c8b;
+  background: #EDACA6;
   max-width: 100%;
   padding: 1.25rem;
   min-height: 90vh;
 }
 
 .nav-mobile-items{
-  color: #d69c8b;
+  color: #EDACA6;
 }
 
 .mobile-cards-container h1{
@@ -424,7 +424,7 @@ section {
 }
 
 .mobile-card h2, p{
-  color: #d69c8b;
+  color: #EDACA6;
 }
 
 
